@@ -9,13 +9,17 @@
 }
 
 :root {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 html, body {
-  font-family: 'Roboto Mono', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   background: $bg;
   min-height: 100vh;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 a {
@@ -23,6 +27,7 @@ a {
   color: $link-color;
   cursor: pointer;
   font-weight: bold;
+  outline: none;
 }
 
 a:hover {

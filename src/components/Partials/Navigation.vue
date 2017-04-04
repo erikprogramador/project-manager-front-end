@@ -14,6 +14,30 @@
           Dashobard
         </a>
       </router-link>
+      <router-link tag="li" to="/users">
+        <a>
+          <img src="../../assets/links/account.svg" alt="Users">
+          Users
+        </a>
+      </router-link>
+      <router-link tag="li" to="/projects">
+        <a>
+          <img src="../../assets/links/projector-screen.svg" alt="Projects">
+          Projects
+        </a>
+      </router-link>
+      <router-link tag="li" to="/customers">
+        <a>
+          <img src="../../assets/links/account-card-details.svg" alt="Customers">
+          Customers
+        </a>
+      </router-link>
+      <router-link tag="li" to="/settings">
+        <a>
+          <img src="../../assets/links/settings.svg" alt="Settings">
+          Settings
+        </a>
+      </router-link>
       <router-link tag="li" to="/login">
         <a>
           <img src="../../assets/links/login-variant.svg" alt="Login">
