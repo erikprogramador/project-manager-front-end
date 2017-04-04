@@ -1,10 +1,12 @@
 // Global vars
 $bg: #fafafa;
 $light: #fafafa;
+$gray: #8287A1;
+$darker: #243348;
 
 // Links vars
-$link-color: #8287A1;
-$link-color-active: #243348;
+$link-color: $gray;
+$link-color-active: $darker;
 
 // Buttons vars
 $button: $link-color-active;
