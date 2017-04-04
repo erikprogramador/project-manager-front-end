@@ -1,0 +1,13 @@
+.button {
+  background-color: $button;
+  padding: .7em 1.6em;
+  font-size: 1rem;
+  border-radius: 3px;
+  color: $button-color;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: $button-color;
+  box-shadow: 0 5px 10px rgba($button, .2);
+}

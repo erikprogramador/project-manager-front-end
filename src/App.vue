@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="main">
     <navigation />
     <transition name="slide">
       <router-view></router-view>

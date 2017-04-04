@@ -1,3 +1,5 @@
+@import 'scss/vars';
+@import 'scss/buttons';
 @import 'scss/animations';
 
 * {
@@ -12,4 +14,22 @@
 
 html, body {
   font-family: 'Roboto Mono', sans-serif;
+  background: $bg;
+  min-height: 96vh;
+}
+
+a {
+  text-decoration: none;
+  color: $link-color;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+a:hover {
+  color: $link-color-active;
+}
+
+.main {
+  width: 100%;
+  min-height: 96vh;
 }

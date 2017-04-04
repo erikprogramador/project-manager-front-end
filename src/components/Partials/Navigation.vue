@@ -14,5 +14,7 @@
 </script>
 
 <style lang="scss" scoped>
-
+  .router-link-active {
+    color: #243348;
+  }
 </style>
