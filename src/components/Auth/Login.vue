@@ -32,7 +32,7 @@
         // That will be removed when i get to functionality part
         username: '',
         password: ''
-      }
+      };
     }
   }
 </script>
