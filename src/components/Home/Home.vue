@@ -3,12 +3,8 @@
     <h1 class="title">PJM - Project Manager</h1>
     <h2 class="subtitle">Organize yours clients</h2>
     <div class="button-group">
-      <router-link to="/login">
-        <a class="button button-cta">Login</a>
-      </router-link>
-      <router-link to="/register">
-        <a class="button button-highlight button-cta">Register</a>
-      </router-link>
+      <router-link to="/login" class="button button-cta">Login</router-link>
+      <router-link to="/register" class="button button-highlight button-cta">Register</router-link>
     </div>
   </main>
 </template>
@@ -35,5 +31,11 @@
   .subtitle {
     letter-spacing: 5px;
     margin: .2em 0 .5em;
+  }
+  .button {
+    margin-right: 1em;
+    &:last-child {
+      margin-right: 0;
+    }
   }
 </style>
