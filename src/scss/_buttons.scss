@@ -1,3 +1,7 @@
+.button-group {
+  margin: 2em 0;
+}
+
 .button {
   background-color: $button;
   padding: .7em 1.6em;
@@ -16,4 +20,16 @@
 
 .button-full {
   width: 100%;
+}
+
+.button-highlight {
+  background: $highlight;
+  color: $light;
+  &:hover {
+    background: darken($highlight, 15%);
+  }
+}
+
+.button-cta {
+  font-size: 1.2rem;
 }
