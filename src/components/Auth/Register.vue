@@ -29,6 +29,7 @@
       <div class="form-group">
         <button type="submit" class="button button-full">Register</button>
       </div>
+      <router-link to="/login">I have got a login!</router-link>
     </form>
   </div>
 </template>

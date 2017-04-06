@@ -21,6 +21,7 @@
       <div class="form-group">
         <button type="submit" class="button button-full">Login</button>
       </div>
+      <router-link to="/register">i haven't a login!</router-link>
     </form>
   </div>
 </template>
