@@ -33,3 +33,10 @@
 .button-cta {
   font-size: 1.2rem;
 }
+
+.button-error {
+  background: $red;
+  &:hover {
+    background: darken($red, 15%);
+  }
+}
