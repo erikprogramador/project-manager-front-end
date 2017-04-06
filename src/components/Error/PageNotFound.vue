@@ -2,9 +2,7 @@
     <div class="container">
       <h1 class="not-found">404</h1>
       <h2 class="not-found-subtitle">Page not found!</h2>
-      <router-link to="/">
-        <a class="button">Back to home!</a>
-      </router-link>
+      <router-link to="/" class="button">Back to home!</router-link>
     </div>
 </template>
 
