@@ -14,6 +14,7 @@
     background: #ffffff;
     border-radius: 3px;
     width: 48%;
+    max-width: 600px;
     box-shadow: 0 5px 10px rgba(#243348, .2);
   }
   .panel-header {
