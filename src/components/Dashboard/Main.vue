@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main class="dashboard">
     <h1 class="page-header">Dashboard</h1>
     <!-- That will be dynamic when i get the functional phase -->
     <section class="card-container">
@@ -34,6 +34,10 @@
 </script>
 
 <style lang="scss" scoped>
+  .dashboard {
+    width: 100%;
+    min-height: 100vh;
+  }
   .card-container {
     width: 100%;
     display: flex;

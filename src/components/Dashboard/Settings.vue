@@ -28,6 +28,10 @@
 </script>
 
 <style lang="scss" scoped>
+  .settings {
+    width: 100%;
+    min-height: 100vh;
+  }
   .panel-container {
     margin-top: 2em;
     display: flex;
