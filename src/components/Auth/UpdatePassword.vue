@@ -39,7 +39,7 @@
         oldPassword: '',
         newPassword: '',
         confirmPassword: ''
-      };
+      }
     }
   }
 </script>

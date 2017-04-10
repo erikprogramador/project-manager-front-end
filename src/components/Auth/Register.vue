@@ -41,7 +41,7 @@
         username: '',
         password: '',
         passwordConfirmation: ''
-      };
+      }
     }
   }
 </script>

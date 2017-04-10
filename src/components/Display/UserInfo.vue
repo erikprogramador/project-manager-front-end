@@ -25,7 +25,7 @@
           permission: 'Adiministrator'
         },
         lastLogin: '3 days ago'
-      };
+      }
     }
   }
 </script>

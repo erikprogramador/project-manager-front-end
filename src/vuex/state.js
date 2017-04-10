@@ -4,6 +4,6 @@ const state = {
     email: ''
   },
   token: ''
-};
+}
 
-export default state;
+export default state

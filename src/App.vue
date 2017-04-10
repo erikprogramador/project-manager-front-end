@@ -11,8 +11,8 @@
 </template>
 
 <script>
-  import Navigation from './components/Partials/Navigation.vue';
-  import Notification from './components/Partials/Notification.vue';
+  import Navigation from './components/Partials/Navigation.vue'
+  import Notification from './components/Partials/Notification.vue'
   export default {
     components: { Navigation, Notification }
   }

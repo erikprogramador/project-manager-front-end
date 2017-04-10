@@ -15,15 +15,15 @@
         message: '',
         showNotification: false,
         error: false
-      };
+      }
     },
     methods: {
       close () {
-        this.showNotification = false;
+        this.showNotification = false
         setTimeout(() => {
-          this.message = '';
-          this.error = false;
-        }, 300);
+          this.message = ''
+          this.error = false
+        }, 300)
       }
     }
   }

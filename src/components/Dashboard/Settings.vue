@@ -19,9 +19,9 @@
 </template>
 
 <script>
-  import Panel from '../Display/Panel.vue';
-  import UserInfo from '../Display/UserInfo.vue';
-  import UpdatePassword from '../Auth/UpdatePassword.vue';
+  import Panel from '../Display/Panel.vue'
+  import UserInfo from '../Display/UserInfo.vue'
+  import UpdatePassword from '../Auth/UpdatePassword.vue'
   export default {
     components: { Panel, UserInfo, UpdatePassword }
   }

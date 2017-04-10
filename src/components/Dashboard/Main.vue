@@ -27,7 +27,7 @@
 </template>
 
 <script>
-  import InfoCard from '../Display/InfoCard.vue';
+  import InfoCard from '../Display/InfoCard.vue'
   export default {
     components: { InfoCard }
   }
