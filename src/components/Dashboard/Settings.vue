@@ -32,10 +32,4 @@
     width: 100%;
     min-height: 100vh;
   }
-  .panel-container {
-    margin-top: 2em;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-  }
 </style>
