@@ -41,6 +41,11 @@ input {
   font-weight: bold;
 }
 
+input[type="search"] {
+  width: 100%;
+  margin-bottom: 2em;
+}
+
 input:focus, select:focus {
   border-bottom: 2px solid $darker;
 }
