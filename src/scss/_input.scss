@@ -12,6 +12,15 @@
   margin-bottom: 0;
 }
 
+.form-group-check {
+  display: flex;
+  align-items: flex-start;
+  label {
+    transform: translateY(0);
+    margin-left: 1em;
+  }
+}
+
 label {
   display: inline-block;
   transform: translateY(50%);
@@ -29,12 +38,29 @@ input {
   padding: 1em;
   width: 87%;
   color: $darker;
+  font-weight: bold;
 }
 
-input:focus {
+input:focus, select:focus {
   border-bottom: 2px solid $darker;
+}
+
+input[type="checkbox"] {
+  display: none;
 }
 
 .input-error {
   color: $red;
 }
+
+select {
+  border: none;
+  background: none;
+  width: 87%;
+  padding: 1em;
+  outline: none;
+  font-weight: bold;
+  border-bottom: 2px solid $gray;
+  appearance:none;
+}
+
