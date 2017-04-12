@@ -1,6 +1,6 @@
 <template>
-  <div class="modal" :class="{ 'hidden': !visible, 'visible': visible }">
-    <div class="modal-container">
+  <div class="modal" :class="{ 'hidden': !visible, 'visible': visible }" @click="$emit('closeModal')">
+    <div class="modal-container" @click="preventClick">
       <button class="close" @click="$emit('closeModal')">
         <img src="../../assets/links/close-white.svg" alt="Close Modal">
       </button>
@@ -19,7 +19,12 @@
 
 <script>
   export default {
-    props: ['visible']
+    props: ['visible'],
+    methods: {
+      preventClick (event) {
+        event.stopPropagation()
+      }
+    }
   }
 </script>
 
