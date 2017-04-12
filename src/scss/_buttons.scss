@@ -40,3 +40,18 @@
     background: darken($red, 15%);
   }
 }
+
+.button-float {
+  border-radius: 100%;
+  padding: .5em .6em;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+
+.button-top-right {
+  top: 20px;
+  bottom: auto;
+}
