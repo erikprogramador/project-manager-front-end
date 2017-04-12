@@ -7,7 +7,7 @@
     <modal :visible="newProjectModal" @closeModal="toggleNewProjectModal">
       <h3 slot="header">Modal</h3>
       <form>
-        <br><br><br><br>
+        <project-create />
       </form>
       <footer slot="footer">
         <button class="button button-error" @click="toggleNewProjectModal">Cancelar</button>
@@ -27,8 +27,9 @@
   import Panel from '../Display/Panel.vue'
   import Modal from '../Display/Modal.vue'
   import ProjectList from './ProjectList.vue'
+  import ProjectCreate from './ProjectCreate.vue'
   export default {
-    components: { Panel, Modal, ProjectList },
+    components: { Panel, Modal, ProjectList, ProjectCreate },
     data () {
       return {
         newProjectModal: false
