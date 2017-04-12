@@ -31,7 +31,8 @@
         projects: [
           { id: 1, name: 'PJM', customer: { name: 'Erik Vanderlei' }, price: 2000.00, status: 'Active' },
           { id: 2, name: 'SalesCity', customer: { name: 'Erik Fernandes' }, price: 3500.00, status: 'Inactive' }
-        ]
+        ],
+        search: ''
       }
     },
     methods: {
