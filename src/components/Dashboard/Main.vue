@@ -19,7 +19,7 @@
     <section>
       <h2>Figure out</h2>
       <ul>
-        <li>User graphs</li>
+        <li>Put two rows with panels, where the first row will be (the currents projects, and pending payments projects), and the secod (customer with more financial return, customers with debit)</li>
         <li>Display pending payments</li>
       </ul>
     </section>
