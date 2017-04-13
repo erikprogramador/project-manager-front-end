@@ -89,3 +89,9 @@ ul {
   align-items: flex-start;
   justify-content: space-between;
 }
+
+.divisor {
+  width: 100%;
+  height: 1px;
+  background-color: rgba($gray, .1);
+}
